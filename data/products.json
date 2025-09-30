@@ -1,0 +1,7 @@
+[
+  {"id":"p1","name":"Ayam Bumbu","price":45000,"description":"Ayam kampung dimasak bumbu khas Zhkitchen","category":"main","image":"/images/product-ayam-bumbu.jpg","sizes":["regular","large"]},
+  {"id":"p2","name":"Sop Ikan","price":35000,"description":"Sup ikan segar dengan rempah pilihan","category":"main","image":"/images/product-sop-ikan.jpg"},
+  {"id":"p3","name":"Nasi Goreng","price":30000,"description":"Nasi goreng spesial dengan telur dan ayam","category":"main","image":"/images/product-nasi-goreng.jpg","sizes":["single","family"]},
+  {"id":"p4","name":"Kerupuk","price":5000,"description":"Kerupuk renyah untuk pendamping","category":"side","image":"/images/product-kerupuk.jpg"},
+  {"id":"p5","name":"Es Teh","price":8000,"description":"Es teh manis dingin segar","category":"drink","image":"/images/product-es-teh.jpg"}
+]

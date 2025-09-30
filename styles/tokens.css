@@ -1,0 +1,11 @@
+:root {
+  --color-primary: #0ea5a4;
+  --color-accent: #f97316;
+  --color-bg: #ffffff;
+  --font-heading: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+body {
+  font-family: var(--font-heading);
+  background-color: var(--color-bg);
+}

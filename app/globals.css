@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* design tokens and font variables */
+@import "./styles/tokens.css";
+
+:root {
+  --primary: #0ea5a4; /* fallback default */
+  --accent: #f97316;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* Set body font and base styles */
+html, body {
+  font-family: var(--font-sans);
+  background-color: white;
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
+
+/* Container adjustments to keep consistent width */
+.container {
+  max-width: 1200px;
+}
+
+/* Utility overrides */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Small accessibility focus ring */
+:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
